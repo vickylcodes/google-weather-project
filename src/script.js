@@ -31,8 +31,6 @@ descriptionElement.innerHTML = response.data.weather[0].description;
 humidityElement.innerHTML = response.data.main.humidity;
 windElement.innerHTML = Math.round(response.data.wind.speed);
 dateElement.innerHTML = formatDate(response.data.dt * 1000);
-
-console.log(apiUrl)
 }
 
 let apiKey = "91976109f2a91771f09b69d01c0d52a3";
